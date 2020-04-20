@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <!--język-->
+  <meta charset="utf-8" />
+  <meta http-equiv="content-language" content="pl" />
+
+  <!--author-->
+  <meta name="author" content="Michał Tyszko" />
+
+  <!--robots-->
+  <meta name="robots" content="index, follow" />
+
+  <!--title-->
+  <title>MyCssPlayground.dev</title>
+
+  <!--meta keywords-->
+  <meta name="description" content="opis" />
+  <meta name="keywords" content="javascript java programowanie html css" />
+
+  <!--meta IE-->
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!--favicon-->
+  <link rel="icon" href="favicon.ico">
+
+  <!--meta for mobile full-->
+  <!--<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">-->
+  <!--and simplified-->
+  <meta name="viewport" content="width=device-width,  initial-scale=1.0">
+
+  <!--Meta for social media fb-->
+  <!-- <meta name='url' content='http://nazwadomenty.pl'>
+    <meta property="og:title" content="Najlepsza kwiaciarnia w Gdańsku" />
+    <meta property="og:image" content="http://nazwadomeny.pl/img/fbook.png" /> 
+    <meta property="og:description" content="Projekt od podstaw do pierwszej pracy jako front-end developer" />
+    <meta property="og:type" content="article" />-->
+
+  <!--fons-->
+  <link href="https://fonts.googleapis.com/css?family=Saira+Condensed:400,700|Saira:400,700&amp;subset=latin-ext" rel="stylesheet">
+  <!--stylesheet-->
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+
+
+</head>
+
+<body>
+  <header class="head">
+    <p class="title">Kamień Papier Nożyce</p>
+    <p class="choice">Twój wybór:</p>
+
+  </header>
+  <section class="images">
+    <img data-option="rock" src="img/rock.jpg" alt="" class="image">
+    <img data-option="paper" src="img/paper.jpg" alt="" class="image">
+    <img data-option="scissors" src="img/scissors.jpg" alt="" class="image">
+  </section>
+  <section class="play">
+    <button class="letsplay">Zagrajmy!</button>
+    <div class="result">
+      <p class="resyou"></p>
+      <p class="rescomp"></p>
+    </div>
+    <div class="winner">
+    </div>
+  </section>
+  <section class="counttitle"></section>
+  <section class="count">
+    <div class="cnt">
+      <p class="cnt_p">wygrane:</p>
+      <p class="number wins">0</p>
+    </div>
+    <div class="cnt">
+      <p class="cnt_p">remisy:</p>
+      <p class="number draws">0</p>
+    </div>
+    <div class="cnt">
+      <p class="cnt_p">przegrane:</p>
+      <p class="number losses">0</p>
+    </div>
+  </section>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
